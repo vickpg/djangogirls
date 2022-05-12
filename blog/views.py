@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Post
+from django.utils import timezone
 
 # função de solicitação e que irá retornar valor que recebe ao chamar outra função render (renderizar) modelo blog 
 def post_list(request):
