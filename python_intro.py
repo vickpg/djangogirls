@@ -27,3 +27,18 @@
 
 for i in range(1, 8):
     print(i)
+
+var_dict = {
+    "idade": 30,
+    "cidade": "São Paulo", 
+}
+
+print(var_dict.get("cidades"))
+
+var_list = [1,20,30,40]
+
+for i in var_list: 
+    print(i)
+
+print(type(var_dict))
+print(type(var_list))
